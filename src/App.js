@@ -1,10 +1,10 @@
-import './App.css';
+import styles from './App.css';
 import Tariff from './components/Tariff';
 import tariffs from "./components/tariffs.json";
 
 function App() {
   return (
-    <div className="App">
+    <div className={styles.App}>
       {tariffs.map((tariff) => (
         <Tariff
           title={tariff.title}

@@ -1,5 +1,5 @@
-import styles from './App.css';
-import Tariff from './components/Tariff';
+import styles from "./App.css";
+import Tariff from "./components/Tariff";
 import tariffs from "./components/tariffs.json";
 
 function App() {
@@ -18,4 +18,3 @@ function App() {
 }
 
 export default App;
-
